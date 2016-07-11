@@ -1,0 +1,1257 @@
+html,
+body {
+    height: 100%;
+    padding-top: 50px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+/* Wrapper for page content to push down footer */
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    margin: 0 auto -60px;
+    /* Pad bottom by footer height */
+    padding: 0 0 60px;
+}
+
+.divider {
+    height: 50px;
+}
+
+.panel {
+    border-width: 0;
+}
+
+/*
+section {
+    color: #ffffff;
+    min-height: 400px;
+    height: auto !important;
+    height: 100%;
+    padding-top: 100px;
+}
+*/
+
+/*---------- NAV BAR ----------*/
+
+.navbar-header {
+    height: 90px;
+}
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+    margin-top: 4px;
+  width: auto;
+  height: 160%;
+    
+}
+
+.navbar-nav {
+    margin: 1px 1px;
+}
+
+.navbar-toggle {
+    outline: 0;
+}
+
+.navbar-toggle {
+    top: 20px;
+}
+
+.navbar-toggle:before {
+    content:"Menu";
+    left:-50px;
+    top:4px;
+    position:absolute;
+    width:50px;
+    Color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+    /* padding-top: 10px; */
+    background-color: #f24c22;
+}
+
+.navbar-inverse .navbar-toggle:hover {
+    /* padding-top: 10px; */
+    background-color: #d83c14;
+}
+
+.navbar-inverse .navbar-toggle:active {
+    /* padding-top: 10px; */
+    background-color: #d83c14;
+}
+
+.navbar-inverse .navbar-toggle:visited {
+    /* padding-top: 10px; */
+    background-color: #d83c14;
+}
+
+.nav-logo-lg {
+    height: 5em;
+}
+
+#topNav {
+    z-index: 999;
+}
+
+#nav {
+    width: 100%;
+}
+
+#nav.affix-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 10em;
+    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.8+0,0+100;Neutral+Density */
+    background: -moz-linear-gradient(top,  rgba(0,0,0,0.8) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(0,0,0,0.8) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    ;
+    border: 0;
+}
+
+#nav.affix {
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    height: 90px;
+    
+    background: rgba(0, 0, 0, 0.8);
+    -webkit-transition: all .3s ease-in-out;
+}
+
+.secondary-navbar {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.navbarskinny, .navbarfat {
+    padding-top: 1.1em;
+    
+    font-size: 1.2em;
+}
+
+.account-btn {
+    margin-top: 8px;
+    
+    letter-spacing: 1px;    
+    border-radius:0;
+}
+
+/*
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+*/
+ 
+.btn-danger {
+    background: #f24c22;
+    color: #ffffff;
+}
+ 
+.btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .dropdown-toggle.btn-danger {
+    background: #e03a19;
+}
+ 
+.btn-danger:active, .btn-danger.active {
+    background: #d83919;
+    box-shadow: none;
+}
+
+.glyphicon-earphone {
+    font-size: .9em;
+}
+
+
+.header-dropdown-menu {
+     width: 500px;
+  left: 50%;
+  right: auto;
+    background-color: #f24c22;
+    
+  text-align: center;
+  transform: translate(-38%, 0);
+}
+
+/*-- change navbar dropdown color --*/
+.header-dropdown-menu li a {
+    background-color: #f24c22;
+    padding-left:10px;
+    padding-right:10px;
+    color:#ffffff;
+  }
+
+
+
+/*---------- /NAV BAR ----------*/
+
+/*--------- HOMEPAGE  ---------*/
+/*--------- HEADER ---------*/
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel {
+    margin-top: -8em;
+}
+
+.overlay {
+    position: absolute;
+    z-index: 12;
+    bottom: 20%;
+    left: 20%;
+    width: 100%;
+    
+    text-align: left;
+    color: #fff;
+}
+
+.overlay h1{
+    font-size: 7em!important;
+    font-weight:800;
+    line-height: 1.2em;
+    
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+}
+
+.overlay {
+        position: absolute;
+        z-index: 12;
+        bottom: 20%;
+        left: 10%;
+        width: 100%;
+
+        text-align: left;
+        color: #fff;
+    }
+
+/*--------- /HEADER ---------*/
+
+/*--------- MEET FAT BRAIN TOYS ---------*/
+.meet-fat-brain-container {
+    position: relative;
+}
+
+.meet-fat-brain-heading {
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 4.5em;
+    font-weight: 900;
+    
+    color: #0199a7;
+    
+}
+
+.play-icon {
+    position: absolute
+}
+.play-icon {
+    left: 50%;
+    top: 35%;
+    -webkit-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+    z-index: 3
+}
+
+
+.video-play-button {
+    background-color: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    color: #fff;
+    border: 2px solid #ffffff;
+    display: inline-block;
+}
+
+.glyphicon-play:active,
+.glyphicon-play:hover,
+.glyphicon-play:focus {
+    background-color: rgba(0, 0, 0, .6);
+    color: #ffffff;
+    text-decoration: none;
+    outline: 0;
+    outline-offset:0;
+}
+
+.glyphicon-play {
+    background: rgba(0, 0, 0, .4);
+    border-radius: 50%;
+    padding: 35px;
+    font-size: 3em;
+    color: #ffffff;
+}
+
+.video-modal-header {
+    border-bottom: 0;
+}
+
+.close {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0;
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+.close:hover {
+    float: right;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0;
+    filter: alpha(opacity=20);
+    opacity: .2;
+}
+
+.video-modal-content {
+    position: relative;
+    background-color: #000000;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 0; 
+    border: 0; 
+    border-radius: 0; 
+    outline: 0;
+/*     -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5); */
+     box-shadow: 0; 
+}
+
+ .modal-content {
+    box-shadow: none;
+    background-color: transparent;
+    border: 0;
+    
+    iframe {
+      display: block;
+      margin: 0 auto;
+    }
+     
+}
+
+/*--------- /MEET FAT BRAIN TOYS ---------*/
+
+/*--------- SPLIT SECTION ---------*/
+.split-container-orange {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e27225+0,e27225+50,ffffff+50 */
+background: #e27225; /* Old browsers */
+background: -moz-linear-gradient(left,  #e27225 0%, #e27225 50%, #ffffff 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #e27225 0%,#e27225 50%,#ffffff 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #e27225 0%,#e27225 50%,#ffffff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e27225', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+}
+
+.split-container-red {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,ee3647+50 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 50%, rgba(238,54,71,1) 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 50%,rgba(238,54,71,1) 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,1) 50%,rgba(238,54,71,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ee3647',GradientType=1 ); /* IE6-9 */
+
+}
+
+.split-container-blue {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0199a7+50,ffffff+50 */
+background: #0199a7; /* Old browsers */
+background: -moz-linear-gradient(left,  #0199a7 50%, #ffffff 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #0199a7 50%,#ffffff 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #0199a7 50%,#ffffff 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0199a7', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+
+}
+
+.split-container-yellow {
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+50,ffcb09+50 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(255,255,255,1) 50%, rgba(255,203,9,1) 50%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(255,255,255,1) 50%,rgba(255,203,9,1) 50%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(255,255,255,1) 50%,rgba(255,203,9,1) 50%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffcb09',GradientType=1 ); /* IE6-9 */
+}
+
+.split-section-header {
+    font-size: 3em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.split-section-p {
+    margin-top: 5px;
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.375em;
+    font-weight: 400;
+    
+    color: #ffffff;
+}
+
+.split-section-button {
+    margin-top: 15px;
+    border: 2px solid #ffffff;
+    
+    background-color:transparent;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.375em;
+	font-style: italic;
+	font-weight: 400;
+    
+    color: #ffffff;
+}
+
+.split-section-button:hover,
+.split-section-button:focus,
+.split-section-button:active {
+    background-color: rgba(255,255,255,.5);
+    outline: 0;
+    color: #ffffff;
+}
+    
+.btn-round{
+border-radius: 17px;
+}
+
+.btn-round-lg{
+    border-radius: 22.5px;
+}
+
+/*--------- /SPLIT SECTION ---------*/
+
+/*--------- AWARDS SECTION ---------*/
+
+.awards-section {
+        background-color: #f1f4f6;
+        color: #b1b3b5;
+    min-height: 270px;
+    height: auto !important;
+    height: 100%;
+}
+
+.awards-header {
+    font-size: 4em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+        
+    text-transform: uppercase;
+}
+
+.awards-wrapper {
+    margin-top: 20px;
+}
+
+.awards-label {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 1.375em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 200;
+}
+
+/*--------- /AWARDS SECTION ---------*/
+
+/*--------- TOY DESIGN SECTION ---------*/
+
+.toy-design-section {
+        background-color: #a1cb3a;
+        color: #b1b3b5;
+    min-height: 400px;
+    height: auto !important;
+    height: 100%;
+}
+
+.toy-design-btn,
+.request-catalog-btn {
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    
+    background-color:transparent;
+    
+    color: #ffffff; 
+}
+
+.toy-design-btn {
+     margin-top: 146px;
+}
+
+
+.toy-design-btn-header,
+.request-catalog-btn-header {
+    margin-top: 10px;
+    
+    padding-left:60px;
+    padding-right: 60px;
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2.125em;
+    font-weight: 700;
+}
+
+.toy-design-btn-p,
+.request-catalog-btn-p {
+    margin-top: -5px;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+	font-size: 1.5em;
+	font-style: italic;
+	font-weight: 400;   
+}
+
+.toy-design-btn:hover,
+.toy-design-btn:focus,
+.toy-design-btn:active,
+.request-catalog-btn:hover,
+.request-catalog-btn:focus,
+.request-catalog-btn:active {
+    border: 2px solid #ffffff;
+    border-radius: 0;
+    
+    background-color: rgba(255,255,255,.5);
+    outline: 0;
+    color: #ffffff;
+}
+
+/*--------- /TOY DESIGN SECTION ---------*/
+
+/*--------- REQUEST CATALOG SECTION ---------*/
+.request-catalog-section {
+        color: #b1b3b5;
+    min-height: 400px;
+    height: auto !important;
+    height: 100%;
+}
+
+.request-catalog-btn {
+     margin-top: 146px;
+}
+
+.fixed-bg-img {
+min-height: 400px;
+    
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(/img/CoverShot.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+
+/*--------- /REQUEST CATALOG SECTION ---------*/
+
+/*--------- /HOMEPAGE  ---------*/
+
+/*--------- SECONDARY PAGES  ---------*/
+
+/*--------- SECONDARY HEADER  ---------*/
+
+.secondary-header-2 {
+    position: relative;
+    
+    margin-top: -100px;
+    
+    min-height: 500px;
+    height: auto !important;
+    height: 100%;
+}
+
+.title-container {
+    position: relative;
+}
+
+.secondary-header-title {
+    position: absolute;
+    max-width: 1200px;
+    margin-top: 225px;
+    right: 10%;
+    
+    color: #ffffff;
+    font-size: 6em!important;
+    font-weight:800;
+    line-height: 1.2em;
+
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);  
+}
+
+.fixed-bg-img-toys {
+min-height: 500px;
+    
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(/img/coggyboy.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+#main {
+  position:relative;
+  background:#fff; 
+}
+
+/*--------- SECONDARY /HEADER  ---------*/
+
+/*--------- PRODUCT CATALOG ---------*/
+
+.product-container {
+    margin-top: 20px;
+}
+ 
+.product-catalog-label {
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.5em;
+    font-weight:700;
+    
+    color: #414042;
+    text-transform: uppercase;
+}
+
+.info-btn {    
+    background: #f24c22;
+    border-radius:0;
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight:700;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.where-to-buy-btn {
+    border-color: #0199a7;
+     border-radius:0;
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight:700;
+    
+    color: #0199a7;
+    text-transform: uppercase;
+}
+
+.where-to-buy-btn:hover,
+.where-to-buy-btn:active, 
+.where-to-buy-btn:focus {
+    background-color: #0199a7;
+     border-radius:0;
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+/* EXPLORE MORE */
+
+.explore-section {
+    position: relative;
+        background-color: #0199a7;
+        color: #ffffff;
+    min-height: 270px;
+    height: auto !important;
+    height: 100%;
+}
+
+.explore-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 5em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 300;
+    
+    text-transform: uppercase;
+}
+
+
+
+.explore-img {
+      border: 2px solid #ffffff;
+    
+    margin-bottom: 20px;3
+}
+
+.explore-label {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+    
+
+}
+
+
+/* /EXPLORE MORE */
+
+/*--------- PRODUCT CATALOG ---------*/
+
+/*--------- PRODUCT PAGES ---------*/
+
+.product-spec-background {
+/*    min-height: 400px;*/
+    width: 100%;
+    background-color: #f4f7f9;
+    
+        overflow: hidden;
+
+}
+
+
+/*--------- /PRODUCT PAGES ---------*/
+
+
+
+/*--------- /SECONDARY PAGES  ---------*/
+
+/*--------- FOOTER ---------*/
+
+footer {
+    position: relative;
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.footer-div {
+    margin-top: 20px;
+}
+
+.footer-list-label {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.375em;
+    font-weight: 700;
+    
+    color: #000000;
+}
+
+.footer-list-item li a,
+.footer-list-item-li,
+.footer-list-item-p{
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.375em;
+    font-weight: 400;
+    
+    line-height: 1.25em;
+    
+    color: #000000;
+}
+
+.footer-list-item li a:hover {
+    color: #58585b;
+}
+
+.scroll-top {
+    display:none;
+    position: fixed;
+    bottom: 0;
+    right: 6%;
+    z-index: 100;
+    background: #f2f3f2;
+    font-size: 24px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.scroll-top a:link,
+.scroll-top a:visited {
+    color: #222;
+}
+
+/*--------- /FOOTER ---------*/
+
+/*---------- MODALS ---------*/
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password], input[type=email] {
+  height: 44px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #f24c22;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.loginmodal-submit:hover {
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #e03a19;
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+/*---------- /MODALS ---------*/
+
+/*---------- MEDIA QUERIES ----------*/
+
+/*** 1999 and below ***/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .info-btn {
+    margin-bottom: 5px;
+}
+}
+
+@media only screen and (max-width: 1199px) {
+
+/*
+     .affix {
+        position: fixed;
+         width: auto;
+    }
+    
+*/
+    
+    
+    .nav-logo-lg {
+        margin-left: 10px;
+        height: 2.88em;}
+    .collapsing, .in {background-color: rgba(0,0,0,0.8);}
+    
+    #nav.affix-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 90px;
+    background-color: rgba(0,0,0,0.8);
+    border: 0;   
+    }
+    
+    .navbar-nav .open .header-dropdown-menu {
+            position: static;
+            float: none;
+            width: auto;
+            margin-top: 0;
+            background-color: transparent;
+            border: 0;
+            -webkit-box-shadow: none;
+            box-shadow: none;
+        }
+        .navbar-nav .open .header-dropdown-menu > li > a {
+            line-height: 20px;
+        }
+        .navbar-nav .open .header-dropdown-menu > li > a,
+        .navbar-nav .open .header-dropdown-menu .dropdown-header {
+            padding: 5px 15px 5px 25px;
+        }
+        .header-dropdown-menu > li > a {
+            display: block;
+            padding: 3px 20px;
+            clear: both;
+            font-weight: normal;
+            line-height: 1.42857143;
+            color: #333;
+            white-space: nowrap;
+        }
+        .navbar-header {
+            float: none;
+        }
+        .navbar-toggle {
+            display: block;
+        }
+        .navbar-collapse {
+            border-top: none;
+            box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+        }
+        .navbar-collapse.collapse {
+            display: none!important;  
+        }
+        
+    .container>.navbar-collapse {
+        margin-right: -15px;
+    margin-left: -15px;
+        padding-right: 15px;
+    padding-left: 15px;
+    }
+    
+        .navbar-nav {
+            float: none!important;
+            /*margin: 7.5px -15px;*/
+            margin: 7.5px 50px 7.5px -15px
+        }
+        .navbar-nav>li {
+            float: none;
+        }
+        .navbar-nav>li>a {
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .navbar-text {
+            float: none;
+            margin: 15px 0;
+        }
+        /* since 3.1.0 */
+        .navbar-collapse.collapse.in { 
+            display: block!important;
+        }
+        .collapsing {
+            overflow: hidden!important;
+        }
+    
+    .overlay {
+        position: absolute;
+        z-index: 12;
+        bottom: 20%;
+        left: 10%;
+        width: 100%;
+
+        text-align: left;
+        color: #fff;
+    }
+
+    .overlay h1{
+        font-size: 6em!important;
+        font-weight:800;
+        line-height: 1.2em;
+
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+    }
+    
+    .list-inline>li {
+    display: block;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+    
+     .affix {
+         position: fixed;
+    right: -20;
+    }
+
+
+     .navbar-nav.nav-justified > li {
+        float: none;
+    }
+    
+        .overlay {
+        position: absolute;
+        z-index: 12;
+        bottom: 10%;
+        left: 10%;
+        width: 100%;
+
+        text-align: left;
+        color: #fff;
+    }
+
+    .overlay h1{
+        font-size: 4em!important;
+        font-weight:800;
+        line-height: 1.2em;
+
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+    }
+    
+   
+}
+
+ @media screen and (min-width: 1199px) {
+        .dropdown:hover .header-dropdown-menu {
+           max-width: $painting-zoom-size;
+          max-height: $painting-zoom-size;
+        }
+    }
+
+@media (max-width: 768px) { 
+
+    .split-container-orange,
+    .split-container-red,
+    .split-container-blue, 
+    .split-container-yellow {
+       background: #ffffff;
+    }
+
+    .toys-header {
+        color: #f24c22;
+    }
+    
+    .toys-btn {
+     border: 2px solid #f24c22;
+    
+    background-color:transparent;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    color: #f24c22;
+    }
+    
+    .toys-btn:hover,
+    .toys-btn:focus,
+    .toys-btn:active {
+    background-color: #f24c22;
+    outline: 0;
+    color: #ffffff;
+    }
+    
+    .games-header {
+        color: #ee3647;
+    }
+    
+    .games-btn {
+     border: 2px solid #ee3647;
+    
+    background-color:transparent;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    color: #ee3647;
+    }
+    
+    .games-btn:hover,
+    .games-btn:focus,
+    .games-btn:active {
+    background-color: #ee3647;
+    outline: 0;
+    color: #ffffff;
+    }
+    
+.brain-teasers-header {
+        color: #0199a7;
+    }
+    
+    .brain-teasers-btn {
+     border: 2px solid #0199a7;
+    
+    background-color:transparent;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    color: #0199a7;
+    }
+    
+    .brain-teasers-btn:hover,
+    .brain-teasers-btn:focus,
+    .brain-teasers-btn:active {
+    background-color: #0199a7;
+    outline: 0;
+    color: #ffffff;
+    }
+    
+    .education-header {
+        color: #ffcb09;
+    }
+    
+    .education-btn {
+     border: 2px solid #ffcb09;
+    
+    background-color:transparent;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    color: #ffcb09;
+    }
+    
+    .education-btn:hover,
+    .education-btn:focus,
+    .education-btn:active {
+    background-color: #ffcb09;
+    outline: 0;
+    color: #ffffff;
+    }
+
+
+    .split-section-p {
+        color: #58595b;
+    }
+
+/*
+.split-section-button {
+    border: 2px solid #f24c22;
+    
+    background-color:transparent;
+    
+    font-family: Georgia, Times, "Times New Roman", serif;
+
+    color: #f24c22;
+}
+*/
+
+/*
+.split-section-button:hover,
+.split-section-button:focus,
+.split-section-button:active {
+    background-color: #f24c22;
+    outline: 0;
+    color: #ffffff;
+}
+*/
+
+}
+
+
+@media (max-width: 768px) and (orientation: landscape) { 
+
+    
+.navbar-nav.nav-justified > li {
+        float: none;
+    }
+    
+        .overlay {
+        position: absolute;
+        z-index: 12;
+        bottom: 10%;
+        left: 10%;
+        width: 100%;
+
+        text-align: left;
+        color: #fff;
+    }
+
+    .overlay h1{
+        font-size: 3em!important;
+        font-weight:800;
+        line-height: 1.2em;
+
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.8);
+    }
+}
+
+}
+
+@media (max-width: 1199px) {
+   
+}
+
+
+/*---------- /MEDIA QUERIES ----------*/
+
+
+/* Set the fixed height of the footer here */
+
+/*
+#footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+header {
+    height: 100%;
+    min-height: 500px;
+}
+
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+
+.container .credit {
+    margin: 20px 0;
+}
+
+#footer {
+    background-color: #414141;
+}
+
+#footer a {
+    color: #efefef;
+}
+*/
