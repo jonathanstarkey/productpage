@@ -727,6 +727,64 @@ min-height: 500px;
 
 /*--------- /PRODUCT PAGES ---------*/
 
+/*--------- IN THE PRESS ---------*/
+
+.in-the-press-heading {
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 4.5em;
+    font-weight: 900;
+    
+    color: #000000;  
+}
+
+.press-kit-button {
+    margin-top: 30px;
+    
+    background-color:#f24c22;
+    
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 600;
+	font-size: 1.375em;
+    
+    color: #ffffff;
+}
+
+.press-kit-button:hover,
+.press-kit-button:focus,
+.press-kit-button:active {
+    background-color: #e03a19;
+    outline: 0;
+    color: #ffffff;
+}
+
+.article-title {
+    margin-top: 10px;
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.375em;
+    font-weight: 700;
+    
+    color: #58595b;
+    
+}
+
+.article-source,
+.article-time {
+    
+    font-family: 'Roboto', Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1;
+    font-weight: 400;
+    
+    color: #808080;
+    
+}
+
+
+/*--------- /IN THE PRESS ---------*/
+
+
+
 
 
 /*--------- /SECONDARY PAGES  ---------*/
